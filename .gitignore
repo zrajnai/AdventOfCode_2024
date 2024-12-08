@@ -1,0 +1,161 @@
+## macOS
+Icon[\r]
+**/.DS_Store
+
+## Build generated
+/build/
+build_logs/
+DerivedData
+/projects/Automation.trace/*
+/projects/Shapr3D.xcodeproj/xcshareddata/xcschemes/*.xcscheme
+/projects/.ruby-version
+
+## Xcode
+xcuserdata
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+features-local.json
+scripts/pre-commit.lock
+win/InAppTests.local.props
+
+## Fastlane
+/projects/fastlane/README.md
+/projects/fastlane/report.xml
+/projects/fastlane/test_output/
+/projects/fastlane/test_logs/
+/projects/.bundle/
+/projects/vendor/bundle
+/deploy/*
+
+## Python
+*.pyc
+
+## Rendering tests
+/src/ShaprRenderingTests/server/venv/
+/src/ShaprRenderingTests/server/images/diff
+/src/ShaprRenderingTests/server/images/reference
+/src/ShaprRenderingTests/server/images/result
+/src/ShaprRenderingTests/server/images/test
+/src/ShaprRenderingTests/server/.aws
+
+## UI tests
+/src/Shapr3DUITests/server/logs/
+/src/Shapr3DUITests/server/venv/
+
+## Performance tests
+/src/ShaprPerformanceTests/venv/
+
+## History evaluation tests
+/src/HistoryEvalTests/TestResources.bundle
+/src/HistoryEvalTests/scripts/.aws
+/src/HistoryEvalTests/scripts/venv/
+
+## Material Integrator
+/tools/Rendering/MaterialIntegrator/venv/
+/tools/Rendering/MaterialIntegrator/IntermediateTextures/
+
+## Visual Studio
+.vs/
+*.user
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+*.tlog
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!?*.[Cc]ache/
+
+# Visual Studio Code
+.vscode/
+
+## C++/WinRT generated code
+/win/**/Generated\ Files/
+
+## 3rd-party
+/projects/Brewfile.lock.json
+/libs/CocoaPods/Pods
+/libs/NuGet
+/libs/**/*.pdb
+!/libs/sentry/bin
+!/libs/**/x64
+!/libs/**/x86
+!/libs/**/[Aa][Rr][Mm]
+!/libs/**/[Aa][Rr][Mm]64
+!/win/deps/**/bin
+!/win/deps/**/bin/**/
+!/win/deps/**/lib/**/
+
+## NuGet
+# The packages folder can be ignored because of Package Restore
+/win/**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!/win/**/[Pp]ackages/build/
+
+## Azure artifacts (e.g. test results)
+/artifacts/
+
+## Submission data for StoreBroker
+!/win/azure/scripts/SubmissionData/Images/Release
+
+## Lib patching
+/libs/scripts/build
+/libs/scripts/fixobj
+/libs/scripts/arextract
+/libs/scripts/setbuildver
+/libs/scripts/insert_encryption_info
+/libs/**/catalyst
+/libs/**/xros
+/libs/**/xrsimulator
+!/libs/filament/lib/catalyst
+!/libs/filament/lib/xros
+!/libs/filament/lib/xrsimulator
+!/libs/PBRMeshWriters/lib/xros
+!/libs/PBRMeshWriters/lib/xrsimulator
+/libs/HOOPS/lib/iphoneos/*.dylib
+/libs/HOOPS/lib/iphoneos/libA3DLIBS_macos.framework/
+/libs/HOOPS/lib/iphonesimulator/*.dylib
+/libs/HOOPS/lib/iphonesimulator/libA3DLIBS_macos.framework/
+/libs/HOOPS/lib/xros/*.dylib
+/libs/HOOPS/lib/xros/libA3DLIBS_macos.framework/
+/libs/HOOPS/lib/xrsimulator/*.dylib
+/libs/HOOPS/lib/xrsimulator/libA3DLIBS_macos.framework/
+
+## Generated assets of UWP app
+/win/Shapr3D/Assets/resourcepaths.txt
+/win/Shapr3D/Assets/Images/scale-*/
+/win/Shapr3DRenderingTests/Assets/resourcepaths.txt
+libs/Parasolid/test/schemas/*
+/win/UpgradeLog.htm
+
+## Github scripts
+.github/scripts/.coverage
+.github/scripts/venv
+
+## User level configuration
+.envrc
+ccache.conf.local
